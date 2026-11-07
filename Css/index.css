@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    height:70px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    gap:27px;
+    align-items:center;
+    padding:20px 20px 20px 38px;
+    box-shadow:0px 0px 5px 2px #e9e8e8;
+    position: sticky;
+    top: 0;
+    background-color:white;
+}
+body{
+    width:100%;
+}
+#myntra_logo img{
+    width:44px;
+}
+nav{
+    width:563px;
+    display:flex;
+    gap:25px;
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:rgb(59, 50, 50);
+    font-size:12px;
+    font-style:bold;
+    font-weight:690;
+    font-family:Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    padding:25px 0;
+    border-bottom:4px solid white;
+}
+nav a:hover{
+    border-bottom:4px solid #f54e77;
+}
+nav sup{
+    font-size:8px;
+    color:rgb(250, 49, 82);
+    margin-left:3px;
+    margin-top:3px;
+}
+#search_bar{
+    display:flex;
+    margin-left:49px;
+}
+.search_icon{
+    background-color:rgb(228, 228, 228);
+    height:32px;
+    width:32px;
+    padding:4px;
+    border-radius:6px 0px 0px 6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search_icon span {
+    font-size: 18px;
+}
+#search_bar input{
+    background-color:rgb(228, 228, 228);
+    height:32px;
+    width:269px;
+    border:none;
+    font-size:12px;
+    font-family:'Figtree-Regular';
+    border-radius:0px 6px 6px 0px;
+}
+#sea{
+    padding-left:7px;
+}
+#action_bar{
+    display:flex;
+    gap:14px;
+    width:180px;
+}
+.action_icon{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    font-size:13px;
+}
+.action_icon p{
+    font-size:9px;
+    font-family:'Figtree-Regular';
+    font-weight:700;
+}
+/* Banner Image */
+.banner_image{
+    display:flex;
+    flex-direction:column;
+    padding:0px 10px;
+}
+.banner_image img{
+    margin-top:17px;
+    width:100%;
+    height:100%;
+}
+#main_image{
+    display:flex;
+}
+/*category section*/
+#heading2{
+    display:flex;
+    justify-content:start;
+    margin:50px 0px 10px 17px;
+    color:#3e4152;
+    letter-spacing:.15em;
+    font-size:1.4em;
+    font-weight:700;
+}
+#category_images{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+.category{
+    width:150px;
+}
+/*card section*/
+#cardpack{
+    display:flex;
+    flex-direction:column;
+}
+#cardpack1,#cardpack2,#cardpack3{
+    display:flex;
+    justify-content:center;
+}
+.card{
+    width:150px;
+    height:200px;
+    background-color:#F2C7B3;
+    margin:15px;
+}
+#shop{
+    width:100%;
+    height:100px;
+}
+#head_text{
+    position:relative;
+    bottom:70px;
+}
+/*banner2*/
+#banner2 img{
+    width:100%;
+    height:200px;
+}
+/*footer*/
+footer{
+    background-color: #f5f5f5;
+    width:100%;
+    height:400px;
+}
+#footer_container{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    padding-top:40px;
+}
+.link{
+    display:flex;
+    flex-direction:column;
+    font-size:12px;
+    gap:4px;
+}
+.link a{
+    text-decoration:none;
+    color:grey;
+}
+#column1,#column2,#column3{
+    display:flex;
+    flex-direction:column;
+}
+.footer-column{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.footer-column h4{
+    font-size:10px;
+    font-weight:700;
+}
+.assurance-item{
+    font-size:14px;
+    color:grey;
+}
+.assurance-item strong{
+    color:black;
+}
+#app{
+    width:250px;
+    position: relative;
+    right:43px;
+    bottom:50px;
+}
+.footer-bottom p{
+    text-decoration:none;
+    color:rgb(75, 74, 74);
+    margin:50px 0px 100px 10px;
+}
+#part1{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+}
+#part2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
